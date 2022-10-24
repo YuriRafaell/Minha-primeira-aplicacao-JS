@@ -39,3 +39,9 @@ O funcionamento das cinco funções está descrito nas seções a seguir.
 
 
 ![image](https://user-images.githubusercontent.com/90493132/197646283-ba68e3c8-e341-48e2-8900-14cc5d5f5ace.png)
+
+
+
+## ⚠️ DESAFIO PARA MIM ⚠️
+
+Irei fazer a melhoria dessa cálculadora, porém em python e irei mostrar o antes e depois!
