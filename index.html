@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt--br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Tudo em Uma Só</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="fundo">
+        <h1>Escolha uma opção</h1><br>
+        <h2><b>1</b> = Cálculo do IMC<br>
+            <b>2</b> = Cálculo de Área<br>
+            <b>3</b> = Cálculo de Ano Bissexto<br>
+            <b>4</b> = Cálculo de Raízes de 2° Grau<br>
+            <b>5</b> = Cálculo de Porcentagem<br>
+            <b>6</b> = Cálculo do Salário Líquido<br>
+            <b>7</b> = Cálculo de Juros Composto e Simples<br>
+            <b>8</b> = Calculadora Padrão</h2>
+        <div class="calculadora">
+            <h2>Calculadora</i></h2>
+            <p id="resultado"></p>
+                <table>                 
+                    <tr>
+                        <td><button class="botao" onclick="imc()">1</button></td>
+                        <td><button class="botao" onclick="area()">2</button></td>
+                        <td><button class="botao" onclick="ano()">3</button></td>
+                        <td><button class="botao" onclick="raizes()">4</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="porcentagem()">5</button></td>
+                        <td><button class="botao" onclick="salario()">6</button></td>
+                        <td><button class="botao" onclick="juros()">7</button></td>
+                        <td><button class="botao" onclick="calculadora()">8</button></td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

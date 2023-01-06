@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt--br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Tudo em Uma Só</title>
+    <link rel="stylesheet" href="ano_biss.css">
+    <script src="ano_biss.js"></script>
+</head>
+<body>
+    <div class="fundo">
+        <h1>Tudo em uma<br></h1>
+        <br>
+        <h2>Você escolheu Cálculo de Ano Bissexto</h2>
+        <div class="calculadora">
+            <h2>Calculadora</i></h2>
+            <p id="resultado"></p>
+            <form>
+                <label for="totalAmt">Digite o ano que deseja:</label><br>
+                <input class="totalAmt" type="number" step="0.01" id="ANO"><br>
+
+                <input type="button" id="i-button" onclick="resposta()" value="Resultado">
+                <input type="button" id="i-button" onclick="history.back()" value="Voltar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
