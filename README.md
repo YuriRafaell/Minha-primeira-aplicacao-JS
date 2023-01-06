@@ -44,4 +44,4 @@ O funcionamento das cinco funções está descrito nas seções a seguir.
 
 ## ⚠️ DESAFIO PARA MIM ⚠️
 
-Irei fazer a melhoria dessa cálculadora, porém em python e irei mostrar o antes e depois!
+Irei fazer a melhoria dessa cálculadora e irei mostrar o antes e depois!
