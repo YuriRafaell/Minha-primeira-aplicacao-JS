@@ -1,0 +1,24 @@
+1 = Cálculo do IMC:
+( ) Exibição da resposta
+
+2 = Cálculo de Área:
+( ) Página de triangulo dando erro
+( ) Página de retangulo dando erro
+( ) Página de circulo dando erro
+
+3 = Cálculo de Ano Bissexto:
+( ) Exibição da resposta
+
+4 = Cálculo de Raízes de 2° Grau:
+( ) Exibição da resposta
+
+5 = Cálculo de Porcentagem:
+( ) Exibição da resposta
+
+6 = Cálculo do Salário Líquido:
+( ) Botão de voltar
+( ) Fazer a estilirização de acordo com que é pedido
+
+7 = Cálculo de Juros Composto e Simples:
+( ) Botão de voltar
+( ) Fazer a estilirização de acordo com que é pedido

@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
 .fundo{
     background-image: linear-gradient(45deg, rgb(127, 79, 190), rgb(79, 42, 165));
     height: 100vh;
@@ -46,4 +55,17 @@
     color: black;
     text-align: right;
     padding: 5px;
+}
+
+.voltar {
+    margin-top: 15px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.voltar:hover{
+    background-color: black;
+    color: white;
 }
