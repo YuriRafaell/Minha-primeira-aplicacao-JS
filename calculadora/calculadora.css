@@ -1,36 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
 }
 
 .hidden {
     overflow: hidden;
 }
 
-.fundo{
+.fundo {
     background-image: linear-gradient(45deg, rgb(127, 79, 190), rgb(79, 42, 165));
     height: 100vh;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.calculadora{
+.nome {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.nome span {
+    font-size: 13vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+
+.nome span:not(:first-child) {
+    margin-left: -0.23em;
+}
+
+.calculadora {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 15px;
 }
 
-.botao{
+.botao {
     width: 50px;
     height: 50px;
     font-size: 25px;
@@ -42,11 +56,11 @@ h2 {
 }
 
 
-.botao:hover{
+.botao:hover {
     background-color: black;
 }
 
-#resultado{
+#resultado {
     width: 207px;
     background-color: white;
     height: 30px;
@@ -65,7 +79,7 @@ h2 {
     height: 25px;
 }
 
-.voltar:hover{
+.voltar:hover {
     background-color: black;
     color: white;
 }

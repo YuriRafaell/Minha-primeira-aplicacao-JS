@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt--br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,38 @@
     <link rel="stylesheet" href="imc.css">
     <script src="imc.js"></script>
 </head>
+
 <body>
     <div class="fundo">
-        <h1>Tudo em uma<br></h1>
-        <br>
-        <h2>Você escolheu Cálculo do IMC</h2>
+        <div class="nome">
+            <span>T</span>
+            <span>U</span>
+            <span>D</span>
+            <span>O</span>
+            <span>E</span>
+            <span>M</span>
+            <span>U</span>
+            <span>M</span>
+            <span>A</span>
+        </div>
+
         <div class="calculadora">
-            <h2>Calculadora</i></h2>
-            <p id="resultado"></p>
+            <h2>Você escolheu Cálculo do IMC</h2>
             <form onsubmit="return false;">
+                <p class="label-text" id="resultado"></p>
                 <label for="totalAmt">Digite uma altura:</label><br>
-                <input class="totalAmt" placeholder="Ex: 1,90" type="number" step="0.01" id="altura" oninput="formatarValor(this)"><br>
+                <input class="totalAmt" placeholder="Ex: 1,90" type="number" step="0.01" id="altura"
+                    oninput="formatarValor(this)"><br>
 
                 <label for="totalAmt">Digite uma massa:</label><br>
                 <input class="totalAmt" placeholder="Em kg" type="number" step="0.01" id="massa"><br><br>
 
-                <button onclick="resposta()" >Calcular</button>
-                <button onclick="history.back()" >Voltar</button>
+                <button onclick="resposta()">Calcular</button>
+                <button onclick="history.back()">Voltar</button>
                 <button onclick="clean('resultado', 'altura', 'massa')">Limpar</button>
             </form>
         </div>
     </div>
 </body>
+
 </html>
